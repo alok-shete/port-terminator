@@ -1,4 +1,7 @@
-import { portsTerminator } from "../lib";
+#!/usr/bin/env node
+'use strict'
+
+import { portsTerminator } from "../lib/index";
 
 (async () => {
   console.time("Port Kill In");
