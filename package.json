@@ -1,6 +1,6 @@
 {
   "name": "port-terminator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple npm package to help you identify and terminate processes using specific ports on your system.",
   "author": "Alok Shete",
   "license": "MIT",
@@ -9,7 +9,7 @@
     "url": "https://github.com/alok-shete/port-terminator/issues"
   },
   "bin": {
-    "port-terminator": "./dist/cjs/bin/portTerminator.js"
+    "port-terminator": "./dist/bin/portTerminator.js"
   },
   "repository": {
     "type": "git",
