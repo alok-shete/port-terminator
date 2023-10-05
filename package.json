@@ -9,7 +9,7 @@
     "url": "https://github.com/alok-shete/port-terminator/issues"
   },
   "bin": {
-    "kill-port": "./dist/cjs/bin/portTerminator.js"
+    "port-terminator": "./dist/cjs/bin/portTerminator.js"
   },
   "repository": {
     "type": "git",
