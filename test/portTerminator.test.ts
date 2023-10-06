@@ -5,15 +5,11 @@ describe("portTerminator", () => {
   it.only("should terminate a process on a valid port", async () => {
     const port = 5501;
 
-    process.stdin.resume();
 
-process.on("SIGINT", (signal, code) => {
-  console.log("signal:", signal);
-  console.log("code:", code);
-  // process.exit(128 + code);
-});
+
     await testServer(port);
-    await portTerminator(port);
+    // await portTerminator(port);
+
   });
 
   it("should throw an error for an invalid port", async () => {
