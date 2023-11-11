@@ -1,6 +1,6 @@
 {
   "name": "port-terminator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple npm package to help you identify and terminate processes using specific ports on your system.",
   "author": "Alok Shete",
   "license": "MIT",
