@@ -1,6 +1,6 @@
 {
   "name": "port-terminator",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple npm package to help you identify and terminate processes using specific ports on your system.",
   "author": "Alok Shete",
   "license": "MIT",
@@ -22,8 +22,8 @@
     "process",
     "npm"
   ],
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/lib/index.js",
+  "types": "dist/lib/index.d.ts",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write . && eslint --fix . ",
